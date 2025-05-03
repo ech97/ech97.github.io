@@ -1,8 +1,6 @@
 ---
 permalink: /about/
 title: "About"
-layout: single
-author_profile: true
 ---
 
 안녕하세요! 저는 기술과 혁신에 열정을 가진 소프트웨어 엔지니어 이찬현입니다.
