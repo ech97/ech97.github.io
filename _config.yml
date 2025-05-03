@@ -65,7 +65,7 @@ defaults:
       path: ""              # 루트 전체
       type: kernel-modules  # 컬렉션 이름
     values:
-      layout: single
+      layout: pages
       header:
         image: "/assets/images/banners/kernel-modules/banner.jpg"
         overlay_image: true
@@ -78,7 +78,7 @@ defaults:
       path: ""
       type: ai-research
     values:
-      layout: single
+      layout: pages
       header:
         image: "/assets/images/banners/ai-research/banner.jpg"
         overlay_image: true
