@@ -20,6 +20,7 @@ timezone: Asia/Seoul
 
 include:
   - _pages
+  - _
   # - assets/css/custom.css
 
 # Plugins (previously gems:)
@@ -64,10 +65,10 @@ footer:
 collections:
   kernel-modules:           # 커널 모듈 개발 전용 컬렉션
     output: true
-    permalink: /kernel/:title/
+    permalink: /kernel-modules/:title/
   ai-research:              # AI 모델 리서치 전용 컬렉션
     output: true
-    permalink: /research/:title/
+    permalink: /ai-research/:title/
 
 # ─── 기본값(defaults)으로 각 컬렉션에 배너 자동 지정 ───────────────
 defaults:
