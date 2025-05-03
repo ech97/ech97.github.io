@@ -2,7 +2,7 @@
 title: "Done is better than Perfect"
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog about technology, development, and insights.
-baseurl: "" # project site인 경우 "/리포지토리명"
+# baseurl: "" # project site인 경우 "/리포지토리명"
 twitter_username: 
 github_username: ech97
 minimal_mistakes_skin: air
@@ -20,7 +20,7 @@ timezone: Asia/Seoul
 
 include:
   - _pages
-  - assets/css/custom.scss
+  # - assets/css/custom.css
 
 # Plugins (previously gems:)
 plugins:
@@ -28,6 +28,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-archives
   - jemoji
   - jekyll-include-cache
 
@@ -138,6 +139,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
 
 # Welcome to Jekyll!
 #
