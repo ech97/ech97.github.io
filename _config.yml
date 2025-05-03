@@ -20,6 +20,7 @@ timezone: Asia/Seoul
 
 include:
   - _pages
+  - assets/css/custom.scss
 
 # Plugins (previously gems:)
 plugins:
@@ -29,11 +30,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-lunr-js-search
-
-# include custom CSS
-include:
-  - assets/css/custom.scss
 
 author:
   name   : "Chanhyun Lee"
@@ -142,8 +138,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-
 
 # Welcome to Jekyll!
 #
