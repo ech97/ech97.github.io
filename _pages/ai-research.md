@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: collection
 title: "AI Research"
 permalink: /ai-research/
+collection: ai-research
 ---
 
 <ul>
