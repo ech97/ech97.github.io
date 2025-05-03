@@ -1,7 +1,7 @@
 
-title: "Done is better than Perfect"
+title: "Line By Line"
 title_separator          : "|"
-subtitle                 : "SINCE 2023"
+subtitle                 : "Linux Kernel Developer"
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog about technology, development, and insights.
 baseurl: "" # project site인 경우 "/리포지토리명"
@@ -12,7 +12,7 @@ author:
   name   : "Chanhyun Lee"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Software engineer with passion for technology and innovation."
-  location  : "Seoul, Republic of Korea"
+  location  : "Suwon, Republic of Korea"
   email  : "ech97@naver.com"
   links:
     - label: "Website"
@@ -164,6 +164,14 @@ jekyll-archives:
 defaults:
   - scope:
       path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "sidebar-category"
+  - scope:
+      path: ""
       type: posts
     values:
       layout: single
@@ -171,6 +179,10 @@ defaults:
       comments: true
       share: true
       related: true
+      comments: true
+      use_math: true
+      toc: true
+      toc_sticky: true
       show_date: truesda
       sidebar:
         nav: "sidebar-category"
