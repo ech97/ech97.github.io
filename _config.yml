@@ -73,6 +73,7 @@ plugins:
   - jekyll-include-cache
 
 # disqus 댓글기능 활성화
+repository: "ech97/ech97.github.io"
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
