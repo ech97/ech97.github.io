@@ -1,0 +1,25 @@
+// $paragraph-indent, $indent-var 등으로 타이포그래피도 조정 가능
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/?utm_source=chatgpt.com
+$link-color: #007acc;
+$breadcrumb-color: #555;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+@import "custom";
+
+// 제목 및 본문 크기 조정
+// 본문 텍스트
+// .page__content {
+//     font-size: 1.05rem;     // 기본 본문 폰트 크기
+//     line-height: 1.7;
+//   }
+//   // 제목 크기 조정
+//   .page__content h1 {
+//     font-size: 2.0rem;
+//   }
+//   .page__content h2 {
+//     font-size: 1.6rem;
+//   }
+//   .page__content h3 {
+//     font-size: 1.3rem;
+//   }

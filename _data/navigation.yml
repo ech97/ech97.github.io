@@ -1,9 +1,16 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: "/"
+  - title: "Kernel Modules"
+    url: "/kernel/"
+  - title: "AI Research"
+    url: "/research/"
   - title: "About"
-    url: /about/
+    url: "/about/"
+  - title: "Category"
+    url: "/categories/"
+  - title: "Tag"
+    url: "/tags/"
+  - title: "Search"
+  - title: "Search"
+    url: "/search/"
