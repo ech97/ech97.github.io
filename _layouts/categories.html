@@ -5,26 +5,30 @@ layout: archive
 {{ content }}
 
 {% assign categories_max = 0 %}
-{% for category in site.categories %}
+{% assign all_categories = site.categories | merge: site.articles | group_by_exp: "item", "item.categories" %}
+{% for category in all_categories %}
   {% if category[1].size > categories_max %}
     {% assign categories_max = category[1].size %}
   {% endif %}
 {% endfor %}
 
-{% assign all_categories = site.categories | merge: site.articles %}
 <ul class="taxonomy__index">
-  {% for category in all_categories %}
-    <li>
-      <a href="#{{ category[0] | slugify }}">
-        <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ category[1].size }}</span>
-      </a>
-    </li>
+  {% for i in (1..categories_max) reversed %}
+    {% for category in all_categories %}
+      {% if category[1].size == i %}
+        <li>
+          <a href="#{{ category[0] | slugify }}">
+            <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
-  {% for category in site.categories %}
+  {% for category in all_categories %}
     {% if category[1].size == i %}
       <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ category[0] }}</h2>
