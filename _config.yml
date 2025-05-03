@@ -120,8 +120,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
-plugins:
-  - jekyll-archives
+# plugins:
+#   - jekyll-archives
 
 # jekyll-archives:
 #   enabled:
