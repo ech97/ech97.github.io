@@ -158,7 +158,28 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
 
+
+collections:
+  articles:
+    output: true
+    permalink:  /articles/:name/
+
 defaults:
+  - scope:
+    path: ""
+    type: articles
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      related: true
+      comments: true
+      use_math: true
+      toc: true
+      toc_sticky: true
+      show_date: truesda
+      sidebar:
+        nav: "sidebar-category"
   - scope:
       path: ""
       type: pages

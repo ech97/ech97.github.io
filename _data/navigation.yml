@@ -6,6 +6,8 @@ main:
     url: /categories/
   - title: "Tag"
     url: /tags/
+  - title: "Articles"
+    url: /articles/
 
 sidebar-category:
   - title: "Kernel Modules"
