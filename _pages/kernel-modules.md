@@ -1,12 +1,7 @@
 ---
-layout: collection
 title: "Kernel Modules"
-permalink: /kernel-modules/
+layout: collection
 collection: kernel-modules
+permalink: /kernel-modules/
+entries_layout: grid
 ---
-
-<ul>
-{% for doc in site.kernel-modules %}
-  <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-{% endfor %}
-</ul>

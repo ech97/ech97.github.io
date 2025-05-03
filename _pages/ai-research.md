@@ -1,12 +1,7 @@
 ---
-layout: collection
 title: "AI Research"
-permalink: /ai-research/
+layout: collection
 collection: ai-research
+permalink: /ai-research/
+entries_layout: grid
 ---
-
-<ul>
-{% for doc in site.ai-research %}
-  <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-{% endfor %}
-</ul>

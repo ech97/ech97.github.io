@@ -55,17 +55,17 @@ footer:
 collections:
   kernel-modules:           # 커널 모듈 개발 전용 컬렉션
     output: true
-    permalink: /kernel-modules/:title/
+    permalink: /kernel-modules/:name/
   ai-research:              # AI 모델 리서치 전용 컬렉션
     output: true
-    permalink: /ai-research/:title/
+    permalink: /ai-research/:name/
 
 defaults:
   - scope:
       path: ""              # 루트 전체
       type: kernel-modules  # 컬렉션 이름
     values:
-      layout: pages
+      layout: single
       header:
         image: "/assets/images/banners/kernel-modules/banner.jpg"
         overlay_image: true
@@ -78,7 +78,7 @@ defaults:
       path: ""
       type: ai-research
     values:
-      layout: pages
+      layout: single
       header:
         image: "/assets/images/banners/ai-research/banner.jpg"
         overlay_image: true
