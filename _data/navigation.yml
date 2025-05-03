@@ -1,15 +1,48 @@
+# main links
 main:
-  - title: "Home"
-    url: "/"
-  - title: "Posts"
-    url: "/posts/"
-  - title: "Kernel Modules"
-    url: "/kernel-modules/"
-  - title: "AI Research"
-    url: "/ai-research/"
-  - title: "About"
-    url: "/about/"
+  - title: "About Me"
+    url: /about/
   - title: "Category"
-    url: "/categories/"
+    url: /categories/
   - title: "Tag"
-    url: "/tags/"
+    url: /tags/
+  - title: "Search"
+    url: /search/
+
+sidebar-category:
+  - title: "Kernel Modules"
+    children:
+      - title: "Linux"
+        url: "Linux"
+        category: "Linux"
+      
+      - title: "MOSFET"
+        url: "MOSFET"
+        category: "MOSFET"
+      
+      - title: "Inspect"
+        url: "Inspect"
+        category: "Inspect"
+      
+      - title: "CMOS"
+        url: "CMOS"
+        category: "CMOS"
+
+
+  - title: "AI Research"
+    children:
+      - title: "MOSFET_Process_Simulation"
+        url: "MOSFET_Process_Simulation"
+        category: "MOSFET_Process_Simulation"
+
+      - title: "FinFET_Process_Simulation"
+        url: "FinFET_Process_Simulation"
+        category: "FinFET_Process_Simulation"
+
+  
+  - title: "Tips"
+    children:
+      - title: "Mask_Layer_Design"
+        url: "Mask_Layer_Design"
+        category: "Mask_Layer_Design"
+
