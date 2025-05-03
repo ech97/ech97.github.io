@@ -1,7 +1,7 @@
 
 title: "Line By Line"
 title_separator          : "|"
-subtitle                 : "Linux Kernel Developer"
+subtitle                 : "천리길도 한걸음 부터"
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog about technology, development, and insights.
 baseurl: "" # project site인 경우 "/리포지토리명"
@@ -15,13 +15,9 @@ author:
   location  : "Suwon, Republic of Korea"
   email  : "ech97@naver.com"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://chanhyun.lee.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ech97"
-
 footer:
   links:
     - label: "GitHub"
@@ -177,7 +173,6 @@ defaults:
       layout: single
       author_profile: true
       comments: true
-      share: true
       related: true
       comments: true
       use_math: true

@@ -1,0 +1,9 @@
+---
+title: "Line By Line"
+excerpt: "천리길도 한걸음 부터"
+layout: home
+header:
+  image: "/assets/images/header.jpg"
+  overlay_image: true
+  overlay_opacity: 0.6
+---
