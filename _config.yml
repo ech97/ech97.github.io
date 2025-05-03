@@ -166,8 +166,8 @@ collections:
 
 defaults:
   - scope:
-    path: ""
-    type: articles
+      path: ""
+      type: articles
     values:
       layout: single
       author_profile: true
