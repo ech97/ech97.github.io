@@ -1,16 +1,37 @@
 
 title: "Done is better than Perfect"
+title_separator          : "|"
+subtitle                 : "SINCE 2023"
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog about technology, development, and insights.
 baseurl: "" # project site인 경우 "/리포지토리명"
-twitter_username: 
 github_username: ech97
-minimal_mistakes_skin: dark
 search: true
 
+author:
+  name   : "Chanhyun Lee"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Software engineer with passion for technology and innovation."
+  location  : "Seoul, Republic of Korea"
+  email  : "ech97@naver.com"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://chanhyun.lee.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ech97"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ech97"
+
+
 # Build settings
-markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
 
 # Conversion
 markdown: kramdown
@@ -29,6 +50,31 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Seoul
+
+# Including
+include:
+  - _pages
+  # - assets/css/custom.css
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # disqus 댓글기능 활성화
 comments:
@@ -94,45 +140,26 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: Asia/Seoul
+date_format: "%Y-%m-%d"
 
-# Including
-include:
-  - _pages
-  # - assets/css/custom.css
+category_archive:
+  type: liquid
+  path: /categories/
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+tag_archive:
+  type: liquid
+  path: /tags/
 
-author:
-  name   : "Chanhyun Lee"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Software engineer with passion for technology and innovation."
-  location  : "Seoul, Republic of Korea"
-  email  : "ech97@naver.com"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://chanhyun.lee.github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ech97"
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ech97"
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 defaults:
   - scope:
@@ -147,62 +174,3 @@ defaults:
       show_date: truesda
       sidebar:
         nav: "sidebar-category"
-
-date_format: "%Y-%m-%d"
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
-
-# plugins:
-#   - jekyll-archives
-
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layouts:
-#     category: category
-#   permalinks:
-#     category: /categories/:name/
-
-
-# # Analytics, SEO 추가 예시
-# analytics:
-#   provider: "google"
-#   google:
-#     tracking_id: "UA-XXXXXXXXX-X"
-# google_site_verification: "YOUR_VERIFICATION_CODE"
-
-
-
-# comments:
-#   provider: "giscus"  # utterances, disqus, staticman 등 지원
-#   giscus:
-#     repo: "YOUR_USERNAME/YOUR_REPO"
-#     repo_id: "REPO_ID"
-#     category: "Announcements"
-#     category_id: "CATEGORY_ID"
