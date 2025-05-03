@@ -2,7 +2,7 @@
 title: "About Linux"
 date: 2025-05-03
 categories:
-  - Linux
+  - [Linux]
 tags:
   - linux
 ---
