@@ -23,6 +23,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ech97"
+copyright: "© 2025 Chanhyun Lee. All rights reserved."
 
 
 # Build settings
