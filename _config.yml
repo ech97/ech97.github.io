@@ -193,15 +193,18 @@ defaults:
   #       nav: "sidebar-category"
   - scope:
       path: ""
+    values:
+      header:
+        overlay_image: "/assets/images/header.png"
+        overlay_filter: 0.5
+  - scope:
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
       sidebar:
         nav: "sidebar-category"
-      header:
-        overlay_image: "/assets/images/header.png"
-        overlay_filter: 0.5
   - scope:
       path: ""
       type: posts
@@ -218,6 +221,3 @@ defaults:
       categories: Null
       sidebar:
         nav: "sidebar-category"
-      header:
-        overlay_image: "/assets/images/header.png"
-        overlay_filter: 0.5
