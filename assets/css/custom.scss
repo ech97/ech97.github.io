@@ -33,10 +33,3 @@ $breadcrumb-color: #555;
 //   background-position: center !important;
 //   background-color: #0F3D3B; /* 배경색 설정 */
 // }
-
-/* assets/css/main.scss 에 추가 */
-.page__header-image {
-  max-height: 300px;         /* 이미지 최대 높이 */
-  width: 100%;               /* 가로 폭은 컨테이너에 맞춤 */
-  object-fit: cover;         /* 비율 유지하며 컨테이너를 완전히 채움 */ 
-}
