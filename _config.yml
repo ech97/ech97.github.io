@@ -200,7 +200,7 @@ defaults:
       sidebar:
         nav: "sidebar-category"
       header:
-        overay_image: "/assets/images/header.png"
+        overlay_image: "/assets/images/header.png"
         overlay_filter: 0.5
   - scope:
       path: ""
@@ -219,5 +219,5 @@ defaults:
       sidebar:
         nav: "sidebar-category"
       header:
-        overay_image: "/assets/images/header.png"
+        overlay_image: "/assets/images/header.png"
         overlay_filter: 0.5
