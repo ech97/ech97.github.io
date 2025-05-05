@@ -22,3 +22,14 @@ $breadcrumb-color: #555;
   .page__content h3 {
     font-size: 1.3rem;
   }
+
+
+.page__hero--overlay {
+  position: relative;
+  margin-bottom: 2em;
+  padding: 3em 0;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-color: #0F3D3B; /* 배경색 설정 */
+}
