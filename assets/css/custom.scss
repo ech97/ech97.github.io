@@ -26,8 +26,8 @@ $breadcrumb-color: #555;
 
 .page__hero--overlay {
   position: relative;
-  margin-bottom: 2em;
-  padding: 3em 0;
+  overflow: hidden;
+  max-height: 300px;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
