@@ -17,31 +17,31 @@ sidebar-category:
   - title: "Linux"
     children:
       - title: "Kernel"
-        url: "Kernel"
+        url: "/Kernel/"
         category: "Kernel"
       
       - title: "Network"
-        url: "Network"
+        url: "/Network/"
         category: "Network"
 
   - title: "AI Research"
     children:
-      - title: "AI_CV"
-        url: "AI_CV"
-        category: "AI_CV"
+      - title: "CV"
+        url: "/CV/"
+        category: "CV"
 
-      - title: "AI_LLM"
-        url: "AI_LLM"
-        category: "AI_LLM"
+      - title: "LLM"
+        url: "/LLM/"
+        category: "LLM"
   
   - title: "Tips"
     children:
       - title: "Bloging"
-        url: "Bloging"
+        url: "/Bloging/"
         category: "Bloging"
 
   - title: "Archive"
     children:
       - title: "Null"
-        url: "Null"
+        url: "/Null/"
         category: "Null"
