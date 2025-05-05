@@ -203,7 +203,7 @@ defaults:
         overlay_image: "/assets/images/header.png"
         overlay_filter: 0.7
   - scope:
-      path: "/_posts/"
+      path: "_posts"
     values:
       author_profile: true
       comments: true
