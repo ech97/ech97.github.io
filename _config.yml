@@ -194,23 +194,17 @@ defaults:
   - scope:
       path: ""
     values:
+      layout: single
       excerpt: ""
+      author_profile: true
+      sidebar:
+        nav: "sidebar-category"
       header:
         overlay_image: "/assets/images/header.png"
         overlay_filter: 0.7
   - scope:
-      path: ""
-      type: pages
+      path: "/_posts/"
     values:
-      layout: single
-      author_profile: true
-      sidebar:
-        nav: "sidebar-category"
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
       author_profile: true
       comments: true
       related: true
@@ -220,5 +214,3 @@ defaults:
       toc_sticky: true
       show_date: true
       categories: Null
-      sidebar:
-        nav: "sidebar-category"

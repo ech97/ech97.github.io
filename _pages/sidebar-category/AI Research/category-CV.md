@@ -1,7 +1,7 @@
 ---
-title: "Bloging"
+title: "CV"
 layout: archive
-permalink: /Bloging/
+permalink: /CV/
 ---
-{% assign posts = site.categories.Bloging %}
+{% assign posts = site.categories.CV %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

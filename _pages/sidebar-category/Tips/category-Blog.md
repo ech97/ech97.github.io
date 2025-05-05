@@ -1,7 +1,7 @@
 ---
-title: "AI_LLM"
+title: "Blog"
 layout: archive
-permalink: /AI_LLM/
+permalink: /Blog/
 ---
-{% assign posts = site.categories.AI_LLM %}
+{% assign posts = site.categories.Blog %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
