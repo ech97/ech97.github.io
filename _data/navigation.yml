@@ -8,6 +8,12 @@ main:
     url: /tags/
 
 sidebar-category:
+  - title: "Projects"
+    children:
+      - title: "Project"
+        url: /project/
+        category: "Project"
+
   - title: "Linux"
     children:
       - title: "Kernel"
@@ -34,3 +40,8 @@ sidebar-category:
         url: "Bloging"
         category: "Bloging"
 
+  - title: "Archive"
+    children:
+      - title: "Null"
+        url: "Null"
+        category: "Null"
