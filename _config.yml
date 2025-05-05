@@ -199,6 +199,9 @@ defaults:
       author_profile: true
       sidebar:
         nav: "sidebar-category"
+      header:
+        overay_image: "/assets/images/header.png"
+        overlay_filter: 0.5
   - scope:
       path: ""
       type: posts
@@ -215,3 +218,6 @@ defaults:
       categories: Null
       sidebar:
         nav: "sidebar-category"
+      header:
+        overay_image: "/assets/images/header.png"
+        overlay_filter: 0.5
