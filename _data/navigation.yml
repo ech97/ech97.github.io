@@ -36,9 +36,9 @@ sidebar-category:
   
   - title: "Tips"
     children:
-      - title: "Bloging"
-        url: "/Bloging/"
-        category: "Bloging"
+      - title: "Blog"
+        url: "/Blog/"
+        category: "Blog"
 
   - title: "Archive"
     children:
