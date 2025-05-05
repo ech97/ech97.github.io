@@ -211,5 +211,6 @@ defaults:
       toc: true
       toc_sticky: true
       show_date: true
+      categories: Null
       sidebar:
         nav: "sidebar-category"
