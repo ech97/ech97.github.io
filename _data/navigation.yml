@@ -6,43 +6,31 @@ main:
     url: /categories/
   - title: "Tag"
     url: /tags/
-  - title: "Articles"
-    url: /articles/
 
 sidebar-category:
-  - title: "Kernel Modules"
+  - title: "Linux"
     children:
-      - title: "Linux"
-        url: "Linux"
-        category: "Linux"
+      - title: "Kernel"
+        url: "Kernel"
+        category: "Kernel"
       
-      - title: "MOSFET"
-        url: "MOSFET"
-        category: "MOSFET"
-      
-      - title: "Inspect"
-        url: "Inspect"
-        category: "Inspect"
-      
-      - title: "CMOS"
-        url: "CMOS"
-        category: "CMOS"
-
+      - title: "Network"
+        url: "Network"
+        category: "Network"
 
   - title: "AI Research"
     children:
-      - title: "MOSFET_Process_Simulation"
-        url: "MOSFET_Process_Simulation"
-        category: "MOSFET_Process_Simulation"
+      - title: "AI_CV"
+        url: "AI_CV"
+        category: "AI_CV"
 
-      - title: "FinFET_Process_Simulation"
-        url: "FinFET_Process_Simulation"
-        category: "FinFET_Process_Simulation"
-
+      - title: "AI_LLM"
+        url: "AI_LLM"
+        category: "AI_LLM"
   
   - title: "Tips"
     children:
-      - title: "Mask_Layer_Design"
-        url: "Mask_Layer_Design"
-        category: "Mask_Layer_Design"
+      - title: "Bloging"
+        url: "Bloging"
+        category: "Bloging"
 
