@@ -1,10 +1,9 @@
 ---
-title: "About Linux"
-date: 2025-05-03
+title: "About Kernel"
 categories:
-  - Linux
+  - Kernel
 tags:
-  - Linux
+  - Kernel
 ---
 
 ## 0. 아무말

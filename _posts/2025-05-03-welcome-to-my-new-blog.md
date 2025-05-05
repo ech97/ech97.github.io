@@ -1,6 +1,5 @@
 ---
 title: "블로그를 시작하며"
-date: 2025-05-03
 categories:
   - blog
 tags:

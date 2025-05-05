@@ -194,9 +194,10 @@ defaults:
   - scope:
       path: ""
     values:
+      excerpt: ""
       header:
         overlay_image: "/assets/images/header.png"
-        overlay_filter: 0.5
+        overlay_filter: 0.7
   - scope:
       path: ""
       type: pages
