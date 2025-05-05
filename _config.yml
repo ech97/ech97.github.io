@@ -27,6 +27,9 @@ footer:
 # Build settings
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dark
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+  - assets/js/clipboardrouge.js
 
 # Conversion
 markdown: kramdown
@@ -45,6 +48,10 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 # Sass/SCSS
 sass:
