@@ -18,12 +18,6 @@ Github:
 
 ---
 
-## 목차
-
-[toc]
-
----
-
 ## Abstract
 
 - 기존 ResBlock을 이용한 Deblurring 작업은 고주파 정보에 있어선 잘 Capture하지만 저주파에선 부족한 부분을 보여왔음
