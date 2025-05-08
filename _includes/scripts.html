@@ -37,6 +37,15 @@
       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
       processEscapes: true
     },
-    "HTML-CSS": { availableFonts: ["TeX"]}
+    "HTML-CSS": { availableFonts: ["TeX"] }
   });
 </script>
+<style>
+/* Minimal Mistakes 다크 스킨에서 수식 색상 조정 */
+.skin-dark .MathJax,
+.skin-dark .MathJax_Display,
+.skin-dark .MathJax_SVG,
+.skin-dark .MathJax_CHTML {
+  color: #fff !important;
+}
+</style>
