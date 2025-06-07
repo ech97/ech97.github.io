@@ -19,7 +19,9 @@ sidebar-category:
       - title: "Kernel"
         url: "/Kernel/"
         category: "Kernel"
-      
+      - title: "IPC"
+        url: "/IPC/"
+        category: "IPC"
       - title: "Network"
         url: "/Network/"
         category: "Network"
