@@ -1,5 +1,5 @@
 ---
-title: MobileNetV2
+title: MobileNetV2 차근차근 분석
 categories:
    - CV
 tags:
@@ -33,15 +33,15 @@ Blog: https://greeksharifa.github.io/computer%20vision/2022/02/10/MobileNetV2/
 
 ## 용어 정리
 
-- ```ImageNet```: ```Image Network 구조가 아닌, ImageNet Dataset을 의미함```
-- ```Spatial```: ```공간``` ```x축, y축과 같은 공간```
-- ```Embedding```: ```고차원의 정보를 저차원에 매핑(또는 저차원으로 표현)```
-- ```Manifold```: ```고차원의 정보를 잘 아우르는 저차원(Subspace)``` ``` 원래 정보를 잘 유지하며 차원축소``` [내 게시글로 링크 만들기]()
-- ```Activation Function``` : ``` ReLu와 같은 비선형 함수``` [내 게시글로 링크 하나 만들기]()
-- ```Skip Connection```: ```Residual Connection``` ```Gradient Vanishing Problem 완화```
-- ```Depthwise Separable Convolution``` = ```Depthwise Convolution + Pointwise Convolution```
-  - ```Depthwise Convolution ``` : ```채널별 Convolution 연산```
-  - ```Pointwise Convolution``` : ``` 1x1 Convolution = Projection Convolution 연산```
+- `ImageNet`: Image Network 구조가 아닌, ImageNet Dataset을 의미함
+- `Spatial`: 공간 x축, y축과 같은 공간
+- `Embedding`: 고차원의 정보를 저차원에 매핑(또는 저차원으로 표현)
+- `Manifold`: 고차원의 정보를 잘 아우르는 저차원(Subspace)  원래 정보를 잘 유지하며 차원축소
+- `Activation Function` :  ReLu와 같은 비선형 함수
+- `Skip Connection`: Residual Connection Gradient Vanishing Problem 완화
+- `Depthwise Separable Convolution` = Depthwise Convolution + Pointwise Convolution
+  - `Depthwise Convolution`  : 채널별 Convolution 연산
+  - `Pointwise Convolution` :  1x1 Convolution = Projection Convolution 연산
 
 ---
 
