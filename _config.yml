@@ -26,6 +26,12 @@ footer:
       url: "https://github.com/ech97"
 copyright: "© 2025 Chanhyun Lee. All rights reserved."
 
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-9Y6RX6QXYH"  # 위에서 복사한 측정 ID
+    anonymize_ip: false
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes
