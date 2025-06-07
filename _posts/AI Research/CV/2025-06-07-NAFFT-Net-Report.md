@@ -1,5 +1,5 @@
 ---
-title: NAFFT_Net_Report 차근차근 분석
+title: NAFFT-Net-Report 차근차근 분석
 categories:
    - CV
 tags:
@@ -15,7 +15,6 @@ tags:
 | ------ | -------------- |
 | 교수   | 김원준 교수님  |
 | 학과   | 전기전자공학부 |
-| 학번   | 201910919      |
 | 이름   | 이찬현         |
 
 ## 1. 요약
