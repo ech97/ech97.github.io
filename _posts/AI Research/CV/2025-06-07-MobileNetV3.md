@@ -162,7 +162,7 @@ youtube: https://www.youtube.com/watch?v=_SCE9_ynjyo&ab_channel=%EB%9D%BC%EC%9E%
 
 - Non-linearity를 **변형된** swish (h-swish)함수로 업그레이드
 
-  - $h-swish[x]=x\cdot{{ReLU6(x+3)} \over 6}$
+  - $h-swish[x]=x\cdot\frac{ReLU6(x+3)}{6}$
 
 - Squeeze, Excitation Operation에서 뿐만아니라 Swish 함수에서도 모두 Sigmoid를 이용하는데,
 

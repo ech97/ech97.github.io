@@ -194,7 +194,6 @@ defaults:
   - scope:
       path: ""
     values:
-      render_with_liquid: false
       layout: single
       excerpt: ""
       author_profile: true
